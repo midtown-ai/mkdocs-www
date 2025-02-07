@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    
+    <title>Midtown AI (blog feed)</title>
+    <description>Let&#39;s explore this transforming technology. Let&#39;s shape the future of AI together.</description>
+    <link>https://midtown-ai.github.io/mkdocs-www/</link>
+    <atom:link href="https://midtown-ai.github.io/mkdocs-www/feed_rss_created.xml" rel="self" type="application/rss+xml" />
+
+    
+    <managingEditor>info@midtown.ai (Emmanuel M.)</managingEditor>
+    
+    <language>en</language>
+
+    
+    <pubDate>Fri, 07 Feb 2025 07:50:28 -0000</pubDate>
+    <lastBuildDate>Fri, 07 Feb 2025 07:50:28 -0000</lastBuildDate>
+    <ttl>1440</ttl>
+
+    
+    <generator>MkDocs RSS plugin - v1.17.1</generator>
+
+    
+    
+    <image>
+      <url>https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png</url>
+      <title>Midtown AI (blog feed)</title>
+      <link>https://midtown-ai.github.io/mkdocs-www/</link>
+    </image>
+    
+
+    
+    
+    <item>
+      <title>AI on the Silver Screen</title>
+      
+      
+        
+      <author>Emmanuel's Empirical Evidence</author>
+        
+      
+      
+      
+        
+      <category>Entertainment</category>
+        
+      <category>No Code</category>
+        
+      
+      <description>This is the post description</description>
+      <link>https://midtown-ai.github.io/mkdocs-www/blog/ai-movies/?utm_campaign=feed-syndication&amp;utm_medium=RSS&amp;utm_source=documentation</link>
+      <pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate>
+      <source url="https://midtown-ai.github.io/mkdocs-www/feed_rss_created.xml">Midtown AI (blog feed)</source>
+      
+      <guid isPermaLink="true">https://midtown-ai.github.io/mkdocs-www/blog/ai-movies/</guid>
+      
+      <enclosure url="https://midtown-ai.github.io/mkdocs-www/assets/images/social/blog/ai-movies.png" type="image/png" length="33865" />
+      
+    </item>
+    
+  </channel>
+</rss>
