@@ -518,7 +518,17 @@ If we use two filters, the output feature map would have dimensions of 24 x 24 x
 
  Cleaning the data in preparation of feeding it to a model.
 
- Transform [features][Feature] to an explicit range between 0 and 1 for example.
+ When to normalize?
+
+   * required: Gradient-based models, deep learning, distance-based methods ([KNN], [SVM], [clustering]).
+   * not-required: Tree-based models ([decision trees], [random forests], [gradient boosting]) since they are not affected by feature scale.
+
+ There are different ways to normalize the data:
+
+  * Min-Max scaling: Transform [features] to an explicit range between 0 and 1 for example.
+    * Use when you need bounded values, the distribution is not normal and has outliers, when dealing with data where relative differences are more important than absolute differences
+    * pros: ensures all the features are in the same scale. Works well for distance-based algorithms (e.g. [KNN], [K-Mean])
+    * cons: sensitive to outliers (if X_min and X_max change due to new data, rescaling needs to be redone)
 
 ```
            X - Xmin
@@ -526,15 +536,45 @@ Xnorm = --------------
           Xmax - Xmin
 ```
 
+  * Mean normalization: center values between [-1, 1] with mean of 0
+
+```
+           X - Xmean
+Xnorm = --------------
+          Xmax - Xmin
+```
+
+  * Unit vector normalization aka [L2 Normalization] : rescales vectors to have unit norm (usefule in tect processing and deep learning)
+
+```
+             X
+X'    = --------------
+          || X ||
+```
+
+/// warning | In normalization, do not include the training/validation sets
+
+ If you do so, you will be exposed to [data leakage] and get falsely optimistic results
+
+///
+
  See also [F], [Feature Scaling]
 
 
 ## Feature Scaling
 
+ Forgetting to do feature scaling is a beginner's mistake!
+
+ If the model are using different feature scales, the model cannot learn as effectively from the data --> slow and inefficient training
+
  Methods:
 
-  * [Feature Normalization]
-  * [Feature Standardization]
+  * [Feature Normalization] - preferred when you need bounded values (e.g. [deep learning], [KNN], [clustering])
+  * [Feature Standardization] - better when data is normally distributed or when handling outliers is imporantn (e.g [regression], [PCA])
+
+ ![](img/f/feature_scaling_methods.png ){: width="100%"}
+
+ ![](img/f/feature_scaling_gradient_descent.png ){: width="100%"}
 
  See also [F], ...
 
@@ -548,7 +588,7 @@ Xnorm = --------------
 
 ## Feature Standardization
 
- Transform [features][Feature] to a measure of how each value differs from the mean.
+ Transform [features] to a measure of how each value differs from the mean.
 
  The new value range typically from -3 to 3 (+- 3 standard-deviation)
 
@@ -892,6 +932,20 @@ if __name__ == '__main__':
  More at:
 
   * code - [https://github.com/PacktPublishing/PyTorch-Ultimate-2023---From-Basics-to-Cutting-Edge](https://github.com/PacktPublishing/PyTorch-Ultimate-2023---From-Basics-to-Cutting-Edge)
+
+
+## Floating Point (FPx)
+
+ Bit depth for [quantization]
+  * FP1
+  * FP4
+  * FP8
+  * FP16
+  * FP32
+
+ {% youtube "https://www.youtube.com/watch?v=2ETNONas068" %}
+
+ See also [F], ...
 
 
 ## Flow-Based Model

@@ -336,10 +336,17 @@
 
  Solution: Look at the feature importance to find out if one of them is 100% predictive!
 
+ Example:
+  * [normalizing][feature normalization] before the test-train split on the full data set. In this case, the test/validation data is influencing the training, the model gets a pick at what it is not supposed to see!
+
+ ![](img/d/data_leakage.png ){: width="100%"}
+
  More at:
 
    * explorable - [https://pair.withgoogle.com/explorables/data-leak/](https://pair.withgoogle.com/explorables/data-leak/)
    * [https://docs.google.com/presentation/d/1WrkeJ9-CjuotTXoa4ZZlB3UPBXpxe4B3FMs9R9tn34I/edit#slide=id.g164b1bac824_0_2980](https://docs.google.com/presentation/d/1WrkeJ9-CjuotTXoa4ZZlB3UPBXpxe4B3FMs9R9tn34I/edit#slide=id.g164b1bac824_0_2980)
+   * videos
+     * beginner mistakes - https://www.youtube.com/watch?v=oMc9StPVzOU
 
  See also [D], [Model Threat Analysis]
 

@@ -42,5 +42,7 @@
 [Kullback-Leibler Distance]: /glossary/k.md#kullback-leibler-distance
 [Kullback-Leibler (KL) Divergence]: /glossary/k.md#kullback-leibler-kl-divergence
 [KL Divergence]: /glossary/k.md#kullback-leibler-kl-divergence
+[Kullback-Leibler (KL) Divergence Approximation]: /glossary/k.md#kullback-leibler-kl-divergence-approximation
+[KL Divergence Approximation]: /glossary/k.md#kullback-leibler-kl-divergence-approximation
 [Kumo AI Company]: /glossary/k.md#kumo-ai-company
 [Kumo AI]: /glossary/k.md#kumo-ai-company

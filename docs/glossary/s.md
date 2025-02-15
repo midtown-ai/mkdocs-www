@@ -2504,6 +2504,11 @@ i'm {travelMode} to {toCity} to go {activity}
  See also [S], [Synthetic Data Privacy]
 
 
+## Synthetic Data Generation
+
+ See also [S], [Imbalanced Dataset], [SMOTE]
+
+
 ## Synthetic Data Privacy
 
  Beware: is it possible to reverser-engineer [synthetic data] to find out what the real data was?
@@ -2571,6 +2576,11 @@ ln(c)
  Features created by normalizing or scaling alone are not considered synthetic features.
 
  See also [S], ...
+
+
+## Synthetic Minority Over-sampling Technique (SMOTE)
+
+ See also [S], [Imbalanced Dataset], [Synthetic Data Generation]
 
 
 ## Synthetic Users Company

@@ -225,8 +225,10 @@
   * [emergent ability distillation]
 
  More at:
-
-  * DeepSeek vs OpenAI - https://www.cnn.com/2025/01/30/business/openai-deepseek-nightcap/index.html
+  * tutorials
+    * https://pytorch.org/tutorials/beginner/knowledge_distillation_tutorial.html
+  * articles
+    * DeepSeek vs OpenAI - https://www.cnn.com/2025/01/30/business/openai-deepseek-nightcap/index.html
 
  See also [K], ...
 
@@ -284,6 +286,8 @@
  ![](img/k/kolmogorov_arnold_network.gif ){: width="100%"}
 
  {% pdf "https://arxiv.org/pdf/2404.19756v1" %}
+
+ {% youtube "https://www.youtube.com/watch?v=cDM3CMtBUFw" %}
 
  More at:
 
@@ -361,9 +365,18 @@
  More at:
 
   * [https://www.youtube.com/watch?v=rZufA635dq4&t=1091s](https://www.youtube.com/watch?v=rZufA635dq4&t=1091s)
+  * wikipedia - https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence
   * [https://machinelearningmastery.com/divergence-between-probability-distributions/](https://machinelearningmastery.com/divergence-between-probability-distributions/)
 
- See also [K], [Cross-Entropy Loss Function], [Disentangled Variational Autoencoder], [Entropy], [Variational Autoencoder]
+ See also [K], [Cross-Entropy Loss Function], [Disentangled Variational Autoencoder], [Entropy], [KL Divergence Approximation], [Variational Autoencoder]
+
+
+## Kullback-Leibler (KL) Divergence Approximation
+
+ More at:
+  * http://joschu.net/blog/kl-approx.html
+
+ See also [K], [KL Divergence]
 
 
 ## Kumo AI Company

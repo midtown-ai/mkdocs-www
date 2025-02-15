@@ -9,6 +9,7 @@
 [Uniform Manifold Approximation and Projection (UMAP)]: /glossary/u.md#uniform-manifold-approximation-and-projection-umap-algorithm
 [UMAP]: /glossary/u.md#uniform-manifold-approximation-and-projection-umap-algorithm
 [Underfitting]: /glossary/u.md#underfitting
+[Undersampling]: /glossary/u.md#undersampling
 [Unfolded RNN]: /glossary/u.md#unfolded-rnn
 [Unigram Tokenization]: /glossary/u.md#unigram-tokenization
 [United States AI Safety Institute (US AISI)]: /glossary/u.md#united-states-ai-safety-institute-us-aisi

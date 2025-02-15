@@ -70,6 +70,12 @@
 [Flask Python Module]: /glossary/f.md#flask-python-module
 [Flask]: /glossary/f.md#flask-python-module
 [FlashAttention]: /glossary/f.md#flashattention
+[Floating Point (FPx)]: /glossary/f.md#floating-point-fpx
+[FP1]: /glossary/f.md#floating-point-fpx
+[FP4]: /glossary/f.md#floating-point-fpx
+[FP8]: /glossary/f.md#floating-point-fpx
+[FP16]: /glossary/f.md#floating-point-fpx
+[FP32]: /glossary/f.md#floating-point-fpx
 [Flow-Based Model]: /glossary/f.md#flow-based-model
 [Folded RNN]: /glossary/f.md#folded-rnn
 [For Stress-Testing Machine Theory Of Mind (FANToM) Benchmark]: /glossary/f.md#for-stress-testing-machine-theory-of-mind-fantom-benchmark

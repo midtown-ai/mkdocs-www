@@ -432,6 +432,8 @@ More at:
 
  A method for [Join-Embedding Predictive Architecture (JEPA)] in 02/2024
 
+ {% youtube "https://www.youtube.com/watch?v=XMh4jdB-pJc" %}
+
  More at:
 
   * [https://ai.meta.com/blog/v-jepa-yann-lecun-ai-model-video-joint-embedding-predictive-architecture/](https://ai.meta.com/blog/v-jepa-yann-lecun-ai-model-video-joint-embedding-predictive-architecture/)

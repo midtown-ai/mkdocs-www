@@ -621,6 +621,42 @@ k is the number of predictors (not counting the intercept)
  See also [A], [Agent Registry]
 
 
+## Agentic AI Stack
+
+ An Agentic AI Stack is essential for creating intelligent, autonomous systems capable of handling complex tasks and making informed decisions.
+
+ The Agentic AI Stack shown below is a comprehensive framework designed to enable autonomous decision-making and task execution within AI-driven systems. It consists of multiple layers, each serving a distinct function to support the system's operations.
+
+ At the foundation is the Tool/Retrieval Layer, which handles information gathering through web searches, APIs, operational databases, and SaaS platforms. It also includes vector databases, knowledge bases, business logic, and user interaction interfaces, ensuring the system can access and utilize diverse data sources effectively.
+
+ The Action/Orchestration Layer manages task execution with components like task management systems, persistent memory, automation scripts, and event logging, enabling the system to perform actions autonomously and maintain operational records.
+
+ Central to the stack is the Reasoning Layer, powered by Large Language Models (LLMs) and supported by contextual analysis tools, decision trees, and natural language understanding (NLU) components. This layer provides the cognitive capabilities necessary for understanding and generating human-like text.
+
+ The Feedback/Learning Layer focuses on continuous improvement through user feedback collection, model training, and performance monitoring, ensuring the system adapts and improves over time.
+
+ Finally, the Security/Compliance Layer ensures secure and compliant operations with data encryption, access control, compliance monitoring, and audit trails.
+
+ Together, these layers form a robust Agentic AI Stack, facilitating autonomous, adaptive, and secure AI system operations.
+
+ [Note: These are not the standard set of tools to be used. The tools and frameworks can change according to the use case]
+
+ ![](img/a/agentic_ai_stack.png){: width="100%" }
+
+ See also [A], ...
+
+## Agentic RAG
+
+ ~ a type of [RAG]
+
+ {% pdf "https://arxiv.org/pdf/2501.09136" %}
+
+ More at:
+  * https://github.com/asinghcsu/AgenticRAG-Survey
+
+ See also [A], ...
+
+
 ## Agentic Workflow
 
  ~ Smart workflow with AI
@@ -1494,6 +1530,8 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 
  {% youtube "https://www.youtube.com/watch?v=B9PL__gVxLI" %}
 
+ {% youtube "https://www.youtube.com/watch?v=P_fHJIYENdI" %}
+
  {% pdf "../pdf/a/alphafold_nature_paper.pdf" %}
 
  More at:
@@ -1566,9 +1604,14 @@ XY is the line passing tough X and Y unless stated to be a segment (with stateme
 
  {% youtube "https://www.youtube.com/watch?v=WKF0QgxmGKs" %}
 
+ {% youtube "https://www.youtube.com/watch?v=vgv-aDR2g6A" %}
+
  More at:
 
+  
   * AlphaGeometry 2
+    * paper - https://arxiv.org/abs/2502.03544
+    * nature - https://www.nature.com/articles/d41586-025-00406-7
     * annoucement - [https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/](https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/)
   * AlphaGeometry 1
     * announcement - [https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/](https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/)

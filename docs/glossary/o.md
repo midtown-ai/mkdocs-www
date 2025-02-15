@@ -787,6 +787,8 @@ model.compile(loss='categorical_crossentropy', optimizer=opt)
 
  {% youtube "https://www.youtube.com/watch?v=wAAtvBtNUH4" %}
 
+ {% youtube "https://www.youtube.com/watch?v=Dw-y3z5PXRU" %}
+
  {% pdf "https://arxiv.org/pdf/2311.11045" %}
 
  More at:
@@ -873,6 +875,13 @@ model.compile(loss='categorical_crossentropy', optimizer=opt)
 ///
 
  See also [O], [Balanced Fitting], [Bias], [Principal Component Analysis], [Validation Subset]
+
+
+## Oversampling
+
+ ![](img/u/oversampling_vs_undersampling.png ){: width="100%"}
+
+ See also [O], [Imbalanced Dataset], [Undersampling]
 
 
 ## Overtraining

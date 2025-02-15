@@ -200,6 +200,13 @@
  See also [T], [Convolutional Neural Network], [Vector]
 
 
+## Tensor Code
+
+ multiple matrix multiples per clock cycle for ML/AI - less accuracy than a [CUDA core]
+
+ See also [T], ...
+
+
 ## Tensor Processing Unit (TPU)
 
  GPU-like hardware built by [Google] specifically to run AI/ML training and accelerate deployed model inferences
@@ -538,6 +545,14 @@ info = response.choices[0].message.content
  `~ look at a sequence of elements/images, find the next element/image = time series representation`. For example, music can be represented with a time series. In this approach, music is represented as time-series data, where each note is based on the previous notes. 
 
  See also [T], [Autoregressive Model]
+
+
+## TinyML
+
+ More at:
+  * https://www.datacamp.com/blog/what-is-tinyml-tiny-machine-learning
+
+ See also [T], ...
 
 
 ## Token Embedding

@@ -19,7 +19,9 @@
 [Techno-Pessimism]: /glossary/t.md#techno-pessimism
 [Temperature]: /glossary/t.md#temperature
 [Tensor]: /glossary/t.md#tensor
+[Tensor Core]: /glossary/t.md#tensor-core
 [Tensor Processing Unit (TPU)]: /glossary/t.md#tensor-processing-unit-tpu
+[Tensor Processing Unit]: /glossary/t.md#tensor-processing-unit-tpu
 [TPU]: /glossary/t.md#tensor-processing-unit-tpu
 [TensorFlow Framework]: /glossary/t.md#tensorflow-framework
 [TensorFlow]: /glossary/t.md#tensorflow-framework
@@ -60,6 +62,7 @@
 [Thresholding]: /glossary/t.md#thresholding
 [Time Step]: /glossary/t.md#time-step
 [Time-Series Predictive Analysis]: /glossary/t.md#time-series-predictive-analysis
+[TinyML]: /glossary/t.md#tinyml
 [Token Embedding]: /glossary/t.md#token-embedding
 [Token Embeddings]: /glossary/t.md#token-embedding
 [Token ID]: /glossary/t.md#token-id

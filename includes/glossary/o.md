@@ -85,4 +85,5 @@
 [Output Layer]: /glossary/o.md#output-layer
 [Output Perturbation]: /glossary/o.md#output-perturbation
 [Overfitting]: /glossary/o.md#overfitting
+[Oversampling]: /glossary/o.md#oversampling
 [Overtraining]: /glossary/o.md#overtraining

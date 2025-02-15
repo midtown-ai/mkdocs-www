@@ -350,15 +350,21 @@ model.summary()
 
  Addressing imbalanced data is important because it can affect the performance of [machine learning] models. Various techniques can be employed to handle imbalanced datasets, including:
 
-  * Resampling: This involves either oversampling the minority class, undersampling the majority class, or a combination of both to create a more balanced dataset.
-  * Synthetic Data Generation: Techniques such as SMOTE (Synthetic Minority Over-sampling Technique) involve generating synthetic examples of the minority class to balance the dataset.
+  * Resampling: This involves either [oversampling] the minority class, [undersampling] the majority class, or a combination of both to create a more balanced dataset.
+  * Synthetic Data Generation: Techniques such as [Synthetic Minority Over-sampling Technique (SMOTE)] involve generating synthetic examples of the minority class to balance the dataset.
   * Cost-sensitive learning: Assigning different misclassification costs to different classes to make the model more sensitive to errors on the minority class.
   * [Ensemble Methods]: Using ensemble methods like Random Forests or boosting algorithms, which can be more robust to imbalanced data.
   * Different Evaluation Metrics: Instead of relying solely on [accuracy], using metrics such as [precision], [recall], [F1 score], or [Area Under the ROC (AUROC) curve][AUROC Curve] can provide a more comprehensive understanding of model performance on imbalanced datasets.
 
  It's crucial to carefully choose and implement these techniques based on the specific characteristics of the dataset and the goals of the machine learning task.
 
+ ![](img/i/imbalanced_dataset.png ){: width="100%"}
+
  {% youtube "https://www.youtube.com/watch?v=JnlM4yLFNuo" %}
+
+ More at:
+  * videos
+    * https://youtu.be/oMc9StPVzOU?t=163
 
  See also [I], ...
 

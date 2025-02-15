@@ -72,6 +72,8 @@
 
  What about [Adapter layers] ?
 
+ {% youtube "https://www.youtube.com/watch?v=Qvlf2AR0Xuc" %}
+
  More at:
 
   * [https://github.com/huggingface/peft](https://github.com/huggingface/peft)
@@ -1358,6 +1360,7 @@ Prediction Error = actual_value - predicted_value
 
  ![](img/p/prompt_engineering_techniques_diagrams.png ){: width="100%"}
 
+ ![](img/p/prompt_engineering_basics.png ){: width="100%"}
  More at:
 
   * Guide to prompt engineering - [https://www.promptingguide.ai/](https://www.promptingguide.ai/)

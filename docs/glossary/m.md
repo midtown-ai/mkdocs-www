@@ -210,6 +210,11 @@ Predict what are the required agent skills based some input parameters
 
  {% youtube "https://www.youtube.com/watch?v=9dSkvxS2EB0" %}
 
+ {% youtube "https://www.youtube.com/watch?v=anjEGPAnzPY" %}
+ {% youtube "https://www.youtube.com/watch?v=9mD1FXZkj6E" %}
+ {% youtube "https://www.youtube.com/watch?v=x-ek3tblq9g" %}
+ {% youtube "https://www.youtube.com/watch?v=EGbU2J898KE" %}
+
  {% pdf "https://arxiv.org/pdf/2312.00752" %}
 
  More at:
@@ -1070,6 +1075,34 @@ def mse_loss(y_pred, y_true):
  See also [M], ...
 
 
+## Missingness
+
+ ~ how to deal with missing data
+
+ <!> By blindly deleting rows you may lose valuable data
+
+ <!> Use the right method to fix the missing data
+
+ Possible fix:
+  * Means
+  * Median
+  * [KNN]
+  * [Regression]
+
+ <!> Missing data can be a signal (e.g. no income reported could mean unemployment!)
+   * if so, encode it in a new feature (field_missing = True) which could be predictive of your target variables
+ 
+ ![](img/m/missingness_signal.png ){: width="100%"}
+
+ ![](img/m/missingness_methods.png ){: width="100%"}
+
+ More at:
+  * videos
+    * https://youtu.be/oMc9StPVzOU?t=201
+
+ See also [M], [Tabular Data]
+
+
 ## Mistral AI Company
 
  A small creative team with high scientific standards. They make efficient, helpful and trustworthy AI models through ground-breaking innovations.
@@ -1101,6 +1134,16 @@ def mse_loss(y_pred, y_true):
  Mistral-8x7B is using the [mixture of expert] architecture with 8 mistral-7b experts!
 
  {% youtube "https://www.youtube.com/watch?v=teEf4OzQ1IY" %}
+
+ See also [M], ...
+
+
+## Mixed Precision
+
+ ~ precision is not the same for all ...
+
+ * Automatic Mixed Precision
+
 
  See also [M], ...
 
@@ -1583,6 +1626,10 @@ def mse_loss(y_pred, y_true):
 
 ## Model Performance Metric
 
+/// warning | Always use the appropriate metrics for model performance
+
+///
+
  Examples:
 
   * [accuracy] or percentage of correct predictions
@@ -1592,6 +1639,12 @@ def mse_loss(y_pred, y_true):
   * [FPR], [FNR]
 
   [Hyperparameter Tuning]
+
+ {% youtube "https://youtu.be/oMc9StPVzOU?t=245" %}
+
+ More at:
+  * videos
+    * using wrong metrics - https://youtu.be/oMc9StPVzOU?t=245
 
  See also [M], ...
 
@@ -2191,6 +2244,40 @@ def mse_loss(y_pred, y_true):
   * code - [https://nlp.seas.harvard.edu/annotated-transformer/](https://nlp.seas.harvard.edu/annotated-transformer/)
 
  See also [M], [Attention Score], [Attention-Based Model], [Decoder], [Encoder], [Masked Self-Attention], [Self-Attention], [Transformer Architecture]
+
+
+## Multi-Instance GPU (MIG)
+
+ ~ Seven independent instances in a single [GPU].
+
+ ~ enable [inference], training, high-performance computing (HPC) workloads to run at the same time on a single GPU with deterministic latency and throughput.
+
+ Multi-Instance GPU (MIG) expands the performance and value of NVIDIA Blackwell and Hopper generation GPUs. MIG can partition the GPU into as many as seven instances, each fully isolated with its own high-bandwidth memory, cache, and compute cores. This gives administrators the ability to support every workload, from the smallest to the largest, with guaranteed quality of service (QoS) and extending the reach of accelerated computing resources to every user.
+
+ Benefit:
+  * Expand GPU Access
+  * Optimize GPU utilization
+  * Run simultaneous workloads
+
+ Without MIG, different jobs running on the same GPU, such as different AI inference requests, compete for the same resources. A job consuming larger memory bandwidth starves others, resulting in several jobs missing their latency targets. With MIG, jobs run simultaneously on different instances, each with dedicated resources for compute, memory, and memory bandwidth, resulting in predictable performance with QoS and maximum GPU utilization.
+
+ 1. Provision and Configure Instances as Needed
+   * A GPU can be partitioned into different-sized MIG instances. For example, on an NVIDIA GB200, an administrator could create two instances with 95GB of memory each, four instances with 45GB each, or seven instances with 23GB each.
+   * MIG instances can also be dynamically reconfigured, enabling administrators to shift GPU resources in response to changing user and business demands. For example, seven MIG instances can be used during the day for low-throughput inference and reconfigured to one large MIG instance at night for deep learning training.
+ 1. Run Workloads in Parallel, Securely
+   * With a dedicated set of hardware resources for compute, memory, and cache, each MIG instance delivers guaranteed QoS and fault isolation. That means that a failure in an application running on one instance doesn’t impact applications running on other instances.
+   * It also means that different instances can run different types of workloads—interactive model development, deep learning training, AI inference, or HPC applications. Since the instances run in parallel, the workloads also run in parallel—but separate and isolated—on the same physical GPU.
+
+ MIG in Blackwell GPUs:
+
+   * Blackwell and Hopper GPUs support MIG with multi-tenant, multi-user configurations in virtualized environments across up to seven GPU instances, securely isolating each instance with confidential computing at the hardware and hypervisor level. Dedicated video decoders for each MIG instance deliver secure, high-throughput intelligent video analytics (IVA) on shared infrastructure. With concurrent MIG profiling, administrators can monitor right-sized GPU acceleration and allocate resources for multiple users.
+   * For researchers with smaller workloads, rather than renting a full cloud instance, they can use MIG to isolate a portion of a GPU securely while being assured that their data is secure at rest, in transit, and in use. This improves flexibility for cloud service providers to price and address smaller customer opportunities.
+
+ {% youtube "https://www.youtube.com/watch?v=iqiSJklgT54" %}
+
+ {% youtube "https://www.youtube.com/watch?v=4ALztZDlkJ0" %}
+
+ See also [M], ...
 
 
 ## Multi-Label Classification

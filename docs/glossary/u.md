@@ -78,6 +78,13 @@
  See also [U], [Balanced Fitting], [Hyperparameter Optimization], [Overfitting]
 
 
+## Undersampling
+
+ ![](img/u/undersampling_vs_oversampling.png ){: width="100%"}
+
+ See also [U], [Imbalanced Dataset], [Oversampling]
+
+
 ## Unfolded RNN
 
  A representation of a [RNN] that is easier than the [folded RNN] to understand. 

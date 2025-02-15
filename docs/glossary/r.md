@@ -846,6 +846,8 @@ Recall = % of positively identified
 
  {% pdf "https://arxiv.org/pdf/1706.03741" %}
 
+ {% youtube "https://www.youtube.com/watch?v=CI-1_ojJW7Q" %}
+
  More at:
 
   * paper 
@@ -1319,6 +1321,7 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
     * [Self-Reflective RAG] - RAG as a state machine
     * [Multimodal RAG] - Extract information from slide deck and other images
   * [Modular RAG]
+  * [Agentic RAG]
 
  Current evaluation frameworks:
   * [RAG Triad Of Metrics]

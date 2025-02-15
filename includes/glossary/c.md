@@ -179,6 +179,8 @@
 [Cross-Validation Sampling Method]: /glossary/c.md#cross-validation-sampling-method
 [Cross-Validation]: /glossary/c.md#cross-validation-sampling-method
 [Cubic Regression]: /glossary/c.md#cubic-regression
+[CUDA]: /glossary/c.md#cuda
+[CUDA Core]: /glossary/c.md#cuda-core
 [Cumulative Distribution Function (CDF)]: /glossary/c.md#cumulative-distribution-function-cdf
 [CDF]: /glossary/c.md#cumulative-distribution-function-cdf
 [Cumulative Reward]: /glossary/c.md#cumulative-reward

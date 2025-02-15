@@ -80,6 +80,8 @@
 [Agent]: /glossary/a.md#agent
 [Agent-Based Modeling]: /glossary/a.md#agent-based-modeling
 [Agent Registry]: /glossary/a.md#agent-registry
+[Agentic AI Stack]: /glossary/a.md#agentic-ai-stack
+[Agentic RAG]: /glossary/a.md#agentic-rag
 [Agentic Workflow]: /glossary/a.md#agentic-workflow
 [AI Agent]: /glossary/a.md#ai-agent
 [AI Agents]: /glossary/a.md#ai-agent

@@ -290,9 +290,13 @@
 [Synthesia]: /glossary/s.md#synthesia-company
 [Synthesized Variable]: /glossary/s.md#synthesized-variable
 [Synthetic Data]: /glossary/s.md#synthetic-data
+[Synthetic Data Generation]: /glossary/s.md#synthetic-data-generation
 [Synthetic Data Privacy]: /glossary/s.md#synthetic-data-privacy
 [Synthetic Feature]: /glossary/s.md#synthetic-feature
 [Synthetic Features]: /glossary/s.md#synthetic-feature
+[Synthetic Minority Over-sampling Technique (SMOTE)]: /glossary/s.md#synthetic-minority-over-sampling-technique-smote
+[Synthetic Minority Over-sampling Technique]: /glossary/s.md#synthetic-minority-over-sampling-technique-smote
+[SMOTE]: /glossary/s.md#synthetic-minority-over-sampling-technique-smote
 [Synthetic Users Company]: /glossary/s.md#synthetic-users-company
 [Synthetic Users]: /glossary/s.md#synthetic-users-company
 [Synthid]: /glossary/s.md#synthid

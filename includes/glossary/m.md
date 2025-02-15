@@ -105,6 +105,7 @@
 [Minimax]: /glossary/m.md#minimax-algorithm
 [Mira Murati Person]: /glossary/m.md#mira-murati-person
 [Mira Murati]: /glossary/m.md#mira-murati-person
+[Missingness]: /glossary/m.md#missingness
 [Mistral AI Company]: /glossary/m.md#mistral-ai-company
 [Mistral AI]: /glossary/m.md#mistral-ai-company
 [Mistral Model]: /glossary/m.md#mistral-model
@@ -113,6 +114,7 @@
 [Mistral-7B]: /glossary/m.md#mistral-model
 [Mistral-8x7B Model]: /glossary/m.md#mistral-model
 [Mistral-8x7B]: /glossary/m.md#mistral-model
+[Mixed Precision]: /glossary/m.md#mixed-precision
 [Mixed Reality (MR)]: /glossary/m.md#mixed-reality-mr
 [Mixed Reality]: /glossary/m.md#mixed-reality-mr
 [MR]: /glossary/m.md#mixed-reality-mr
@@ -207,8 +209,12 @@
 [Multi-Agent RL]: /glossary/m.md#multi-agent-reinforcement-learning
 [Multi-Class Classification]: /glossary/m.md#multi-class-classification
 [Multi-Head Attention]: /glossary/m.md#multi-head-attention
+[Multi-Instance GPU (MIG)]: /glossary/m.md#multi-instance-gpu-mig
+[Multi-Instance GPU]: /glossary/m.md#multi-instance-gpu-mig
+[MIG]: /glossary/m.md#multi-instance-gpu-mig
 [Multi-Label Classification]: /glossary/m.md#multi-label-classification
 [Multi-Task Learning (MTL)]: /glossary/m.md#multi-task-learning-mtl
+[Multi-Task Learning]: /glossary/m.md#multi-task-learning-mtl
 [MTL]: /glossary/m.md#multi-task-learning-mtl
 [Multi-Turn Question Set Benchmark (MT-Bench)]: /glossary/m.md#multi-turn-question-set-benchmark-mt-bench
 [Multi-Turn Question Set Benchmark]: /glossary/m.md#multi-turn-question-set-benchmark-mt-bench

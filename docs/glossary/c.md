@@ -479,6 +479,8 @@ print(query_result)
 
  Diplomacy is what AI researchers call a “seven player, zero sum and deterministic game of imperfect information”. A seven player game is much harder to solve than a two player game such as chess or Go. You must consider the many possible strategies of not one but six other players. This makes it much harder to write an AI to play the game. Diplomacy is also a game of imperfect information, because players make moves simultaneously. Unlike games such as chess or Go, where you know everything about your opponent’s moves, players in Diplomacy make moves not knowing what their opponents are about to do. They must therefore predict their opponents’ next actions. This also adds to the challenge of writing an AI to play it. Finally, Diplomacy is a zero sum game in which if you win, I lose. And the outcome is deterministic and not dependent on chance. Nonetheless, before victory or defeat, it still pays for players to form alliances and team up on each other. Indeed, one of the real challenges in playing the game is managing the informal negotiations with other players before making simultaneous moves. The main reason Cicero’s performance is a scientific breakthrough is that it can both play the game well, and also perform these informal negotiations. This combination of natural language processing and strategic reasoning is a first for any game-playing AI.
 
+ {% youtube "https://www.youtube.com/watch?v=JxSZbIR4SFg" %}
+
  More at:
 
    * site - [https://ai.facebook.com/research/cicero/](https://ai.facebook.com/research/cicero/)
@@ -512,6 +514,11 @@ print(query_result)
    * CIFAR 100 - [https://knowyourdata-tfds.withgoogle.com/dataset=cifar100](https://knowyourdata-tfds.withgoogle.com/dataset=cifar100)
 
  See also [C], [Dataset]
+
+
+## Class Imbalance
+
+ See [Imbalanced Dataset]
 
 
 ## Classical AI
@@ -2096,6 +2103,18 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
  Cuda Core 
 
  See also [C], [GPU]
+
+
+## CUDA
+
+ See also [C], ...
+
+
+## CUDA Core
+
+ parallel general processing - more accuracy (than a [tensor core])
+
+ See also [C], ...
 
 
 ## Cumulative Distribution Function (CDF)
