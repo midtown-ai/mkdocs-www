@@ -68,6 +68,9 @@
 [MAE]: /glossary/m.md#mean-absolute-error-mae-loss-function
 [Mean Absolute Percentage Error (MAPE)]: /glossary/m.md#mean-absolute-percentage-error-mape
 [MAPE]: /glossary/m.md#mean-absolute-percentage-error-mape
+[Mean Average Precision (MAP) Metric]: /glossary/m.md#mean-average-precision-map-metric
+[Mean Average Precision (MAP)]: /glossary/m.md#mean-average-precision-map-metric
+[MAP]: /glossary/m.md#mean-average-precision-map-metric
 [Mean Square Error (MSE) Loss Function]: /glossary/m.md#mean-square-error-mse-loss-function
 [Mean Square Error (MSE)]: /glossary/m.md#mean-square-error-mse-loss-function
 [MSE Loss Function]: /glossary/m.md#mean-square-error-mse-loss-function
@@ -149,6 +152,7 @@
 [MDLC]: /glossary/m.md#model-development-life-cycle-mdlc
 [Model Drift]: /glossary/m.md#model-drift
 [Model Evaluation]: /glossary/m.md#model-evaluation
+[Model Evaluation Metric]: /glossary/m.md#model-evaluation-metric
 [Model Firewall]: /glossary/m.md#model-firewall
 [Model Format]: /glossary/m.md#model-format
 [Model Governance]: /glossary/m.md#model-governance

@@ -822,6 +822,13 @@ Some well-known NP-hard problems include the traveling salesman problem, the kna
  See also [N], ...
 
 
+## Normalized Discounted Cumulative Gain (NDCG) Metric
+
+ NDCG evaluates ranking models based on the graded relevance (score of 0 through 5) of retrieved documents rather than just binary relevance.
+
+ See also [N], [Model Evaluation Metric]
+
+
 ## Normalizing
 
  See also [N], ...

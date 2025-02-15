@@ -850,6 +850,10 @@ model.compile(loss='categorical_crossentropy', optimizer=opt)
 
 ## Overfitting
 
+ ~ model is like a student that learns by heart the answers, but does not understand the concepts
+
+ ~ capture all the noise, thus "missed the point" --> low loss, low accuracy
+
  ~ when accuracy on training set is much higher (good performance) than the one on the test set (or other input sets)
 
  ~ means the model has high [variance] (works well with training set, but not with the test set!)
@@ -864,6 +868,14 @@ model.compile(loss='categorical_crossentropy', optimizer=opt)
 
   * too few training examples (connect samples when in fact the connection is not a simple straight line!)
   * running the training process for too many epochs. Consider [early stopping] ?
+
+ To find the sweet spot and a [balanced fitting] , use:
+
+  * [cross-validation]
+  * [regularization]
+  * [early stopping]
+  * watch training and validation curves and make sure they don't diverge
+  * ...
 
  ![](img/o/overfitting_fitting_comparison.png ){: width="100%"}
 

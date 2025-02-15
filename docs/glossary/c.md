@@ -2089,6 +2089,8 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
 
 ## Cross-Validation Sampling Method
 
+ ~ used to find the sweet spot for [balanced fitting]
+
  = to merge in [k-fold cross validation]?
 
  Cross-validation is a powerful preventative measure against [overfitting]. The idea is clever: Use your initial training data to generate multiple mini train-test splits. Use these splits to tune your model (eg complexity). In standard k-fold cross-validation, we partition the data into k subsets, called folds. Then, we iteratively train the algorithm on k-1 folds while using the remaining fold as the test set (called the “holdout fold”). Cross-validation allows you to tune [hyperparameters] with only your original training set. This allows you to keep your test set as a truly unseen dataset for selecting your final model.

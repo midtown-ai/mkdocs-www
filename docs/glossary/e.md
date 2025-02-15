@@ -2,6 +2,8 @@
 
 ## Early Stopping
 
+ ~ used to find the sweet spot for a [balanced fitting]
+
  There is a challenge in training a [neural network] long enough for it to learn the mapping, but not so long that it overfits the training data. One way to accomplish this is to train on the training dataset, but to stop training at the point when performance on a validation dataset starts to degrade. In the world of training neural networks, this is what is known as “early stopping”. `A key challenge with [overfitting], and with machine learning in general, is that we can’t know how well our model will perform on new data until we actually test it"`.
 
  ![](img/e/early_stopping.png ){: width="100%"}

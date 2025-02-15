@@ -756,6 +756,14 @@ def mae_loss(y_pred, y_true):
  See also [M], [Prediction Error]
 
 
+
+## Mean Average Precision (MAP) Metric
+
+ MAP measures the quality of ranked retrieval results, particularly for tasks where multiple relevant items exist, such as search engines or recommendation systems.
+
+ See also [M], [Model Evaluation Metric]
+
+
 ## Mean Square Error (MSE) Loss Function
 
  MSE loss function is widely used in linear regression as the performance measure. To calculate MSE, you take the difference between your predictions and the ground truth, square it, and average it out across the whole dataset.
@@ -1528,6 +1536,49 @@ def mse_loss(y_pred, y_true):
  See also [M], ...
 
 
+## Model Evaluation Metric
+
+/// warning | Always use the appropriate metrics for model performance
+
+ The right metric depends on your real world goal/impact!
+
+ Pick metrics that align with your actual goals ex: cancer , not cancer and FPR / FNR
+
+///
+
+ Examples:
+
+  * [accuracy] or percentage of correct predictions
+  * [FPR], [FNR]
+  * Imbalanced datasets
+    * [sensitivity], [recall], hit rate or [TPR]
+    * [precision]
+    * [F1 score] = weighted harmonic mean of precision and recall = ( 2 X precision * recall ) / (Precision + recall)
+  * Ranking
+    * [Mean Average Precision (MAP)] - binary relevance (e.g. search engines returning only "relevant" or "not relevant" results)
+    * [Normalized Discounted Cumulative Gain (NDCG)] - graded relevance (e.g. recommendation systems where some items are more relevant than others)
+  * Regression
+    * [Root Mean Square Error (RMSE)]
+    * [Mean Absolute Error (MAE)]
+
+/// warning | This metrics are also used to compute the loss function 
+
+ Ex: MAP Metric and MAP loss function?
+
+///
+
+  [Hyperparameter Tuning]
+
+ {% youtube "https://www.youtube.com/watch?v=oMc9StPVzOU&t=245s" %}
+
+ More at:
+
+  * videos
+    * using wrong metrics - https://www.youtube.com/watch?v=oMc9StPVzOU&t=245s
+
+ See also [M], ...
+
+
 ## Model Firewall
 
  A proxy that front the LLM and inspect input and output of queries. Useful for guardrails.
@@ -1620,31 +1671,6 @@ def mse_loss(y_pred, y_true):
  More at:
 
   * paper - [https://arxiv.org/abs/2403.13187](https://arxiv.org/abs/2403.13187)
-
- See also [M], ...
-
-
-## Model Performance Metric
-
-/// warning | Always use the appropriate metrics for model performance
-
-///
-
- Examples:
-
-  * [accuracy] or percentage of correct predictions
-  * [sensitivity], [recall], hit rate or [TPR]
-  * [precision]
-  * [F1 score] = weigthed harmonic mean of precision and recall = ( 2 X precision * recall ) / (Precision + recall)
-  * [FPR], [FNR]
-
-  [Hyperparameter Tuning]
-
- {% youtube "https://youtu.be/oMc9StPVzOU?t=245" %}
-
- More at:
-  * videos
-    * using wrong metrics - https://youtu.be/oMc9StPVzOU?t=245
 
  See also [M], ...
 

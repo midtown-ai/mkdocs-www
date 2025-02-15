@@ -354,7 +354,7 @@ model.summary()
   * Synthetic Data Generation: Techniques such as [Synthetic Minority Over-sampling Technique (SMOTE)] involve generating synthetic examples of the minority class to balance the dataset.
   * Cost-sensitive learning: Assigning different misclassification costs to different classes to make the model more sensitive to errors on the minority class.
   * [Ensemble Methods]: Using ensemble methods like Random Forests or boosting algorithms, which can be more robust to imbalanced data.
-  * Different Evaluation Metrics: Instead of relying solely on [accuracy], using metrics such as [precision], [recall], [F1 score], or [Area Under the ROC (AUROC) curve][AUROC Curve] can provide a more comprehensive understanding of model performance on imbalanced datasets.
+  * Different Evaluation Metrics: Instead of relying solely on [accuracy], using metrics such as [precision], [recall], [F1 score], or [Area Under the ROC (AUROC) curve][AUROC Curve] can provide a more comprehensive understanding of model performance on imbalanced datasets. EX: in fraud detection, an accuracy of 99% could be achieve by a model that classify all transactions as non-fraudulent! That is not a good model! Use the right [model evaluation metric] !
 
  It's crucial to carefully choose and implement these techniques based on the specific characteristics of the dataset and the goals of the machine learning task.
 

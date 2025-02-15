@@ -162,6 +162,13 @@
 
  Good generalization for other data.
 
+ To find the sweet spot, use:
+  * [cross-validation]
+  * [regularization]
+  * [early stopping]
+  * watch training and validation curves and make sure hey don't diverge
+  * ...
+
  ![](img/b/balanced_fitting_comparison.png ){: width="100%"}
 
  See also [B], [Bias], [Overfitting], [Underfitting], [Variance]

@@ -64,7 +64,7 @@
 
 ## Underfitting
 
- ~ model that is too simple (low bias) and that simplicity creates a ceiling for its potential [accuracy]. It does not even fit the training set well!
+ ~ model that is too simple (low bias) and that simplicity creates a ceiling for its potential [accuracy]. It does not even fit the training set well! --> high loss  and low accuracy
 
  When you have low [variance] (clustered, same accuracy for different datasets), but high bias (offset, accuracy far from 100%). To prevent underfitting try hyper-parameter optimization.
 
@@ -72,6 +72,13 @@
 
   * when a neural network does not have enough layers
   * when a linear regression is used to model a quadratic function/equation
+
+ To find the sweet spot and a [balanced fitting], use:
+  * [cross-validation]
+  * [regularization]
+  * [early stopping]
+  * watch training and validation curves and make sure they don't diverge
+  * ...
 
  ![](img/u/underfitting_overfitting_balanced.png ){: width="100%"}
 

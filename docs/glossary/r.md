@@ -598,6 +598,8 @@ Recall = % of positively identified
 
 ## Regularization
 
+ ~ used to find the sweet spot for a [balanced fitting]
+
  Force a 'simpler model' to avoid memorizing training data, aka [overfitting] and encourage generalization!.
 
  There is an approach that prefers some [bias] over high [variance], this approach is called regularization. It works well for most of the [classification] / [regression] problems.

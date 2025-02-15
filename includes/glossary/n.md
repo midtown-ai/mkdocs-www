@@ -107,6 +107,9 @@
 [Non-Linear Regression]: /glossary/n.md#non-linear-regression
 [Non-Symbolic AI]: /glossary/n.md#non-symbolic-ai
 [Normalization]: /glossary/n.md#normalization
+[Normalized Discounted Cumulative Gain (NDCG) Metric]: /glossary/n.md#normalized-discounted-cumulative-gain-ndcg-metric
+[Normalized Discounted Cumulative Gain (NDCG)]: /glossary/n.md#normalized-discounted-cumulative-gain-ndcg-metric
+[NDCG]: /glossary/n.md#normalized-discounted-cumulative-gain-ndcg-metric
 [Normalizing]: /glossary/n.md#normalizing
 [NotebookLM Utility]: /glossary/n.md#notebooklm-utility
 [NotebookLM]: /glossary/n.md#notebooklm-utility

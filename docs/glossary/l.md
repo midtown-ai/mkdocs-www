@@ -822,6 +822,8 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
   * A starting value can be between 0.01 and 0.1 which implies that updates with be between 1% and 10% of the observed error.
 ///
 
+ {% youtube "https://www.youtube.com/watch?v=oMc9StPVzOU&t=340s" %}
+
  See also [L], [Gradient Descent Algorithm], [Hyperparameter], [Loss Function], [Prior], [Transfer Learning]
 
 
