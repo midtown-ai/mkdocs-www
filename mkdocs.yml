@@ -277,6 +277,7 @@ nav:
     - Projects: projects/index.md
     - Python: projects/python/index.md
     - Pytorch: projects/pytorch/index.md
+    - Seaborn: projects/seaborn/index.md
     - DeepRacer: projects/deepracer/index.md
   #   - DeepRacer:
   #     - Approaching DeepRacer: projects/deepracer/approaching-aws-deepracer.md

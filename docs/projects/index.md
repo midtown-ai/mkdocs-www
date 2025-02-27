@@ -33,4 +33,15 @@ hide:
     [:fontawesome-solid-arrow-right:{ .bouncing-horizontally } Get started with PyTorch](/projects/pytorch/index.md)
 
 
+-   :fontawesome-solid-robot: __Seaborn__
+
+    ---
+
+    Seaborn is a powerful Python data visualization library built on top of Matplotlib. It makes creating beautiful, informative charts effortless, with built-in themes, color palettes, and statistical functions. Whether you’re working with histograms, heatmaps, or regression plots, Seaborn simplifies complex visualizations with just a few lines of code.
+
+    Why use Seaborn? Elegant & Aesthetic Graphs, Seamless Pandas Integration, Easy Statistical Visualization, Automatic Data Aggregation.
+
+    [:fontawesome-solid-arrow-right:{ .bouncing-horizontally } Want to master Seaborn](/projects/seaborn/index.md)
+
+
 </div>
