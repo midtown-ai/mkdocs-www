@@ -175,6 +175,13 @@ Predict what are the required agent skills based some input parameters
  See also [M], ...
 
 
+## Majority Class
+
+ used to see if the dataset is balanced?
+
+ See also [M], [Classifier]
+
+
 ## Majority Vote Algorithm
 
  When you crowdsource a labeling task, how can you be certain that the label is correct? Have several people label the same image/entry and apply this algorithm! An alternative is to use Dawid-Skene algorithm.
@@ -2324,6 +2331,8 @@ def mse_loss(y_pred, y_true):
  ~ `not enough data for individual algo --> reuse data from other similar algo` Train all parameters at the same time, but each of the task have shared parameters. One example is a spam-filter, which can be treated as distinct but related classification tasks across different users. To make this more concrete, consider that different people have different distributions of features which distinguish spam emails from legitimate ones, for example an English speaker may find that all emails in Russian are spam, not so for Russian speakers. Yet there is a definite commonality in this classification task across users, for example one common feature might be text related to money transfer. Solving each user's spam classification problem jointly via MTL can let the solutions inform each other and improve performance.
 
  ![](img/m/multi_task_learning.png ){: width="100%"}
+
+ ![](img/m/multi_task_learning_gradient_flow.png ){: width="100%"}
 
 /// details | How does that relate to transfer learning?
     type:question

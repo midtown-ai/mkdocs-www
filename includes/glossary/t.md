@@ -76,6 +76,8 @@
 [Top-P]: /glossary/t.md#top-p-random-sampling
 [Torch]: /glossary/t.md#torch
 [TorchScript Format]: /glossary/t.md#torchscript-format
+[Train-Test Contamination]: /glossary/t.md#train-test-contamination
+[Training Loop]: /glossary/t.md#training-loop
 [Training Loss]: /glossary/t.md#training-loss
 [Training Set]: /glossary/t.md#training-set
 [Trajectory]: /glossary/t.md#trajectory

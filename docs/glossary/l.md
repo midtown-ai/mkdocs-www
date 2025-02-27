@@ -784,6 +784,8 @@ completion = llm(prompt)
 
 ## Learning Rate
 
+ ~ size of weight change, if LR = 1 ==> then .... , LR is positive and much smaller than 1
+
  ~ controls how rapidly the model learns/changes
 
 /// note | Often symbolized by 'alpha'
@@ -849,6 +851,8 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 
 
 ## Leave-One-Out Cross-Validation (LOOCV)
+
+ ~ use all data in training, except one dataset
 
  A special case of [k-fold cross-validation] is the Leave-one-out cross-validation (LOOCV) method in which we set k=n (number of observations in the dataset). Only one training sample is used for testing during each iteration. This method is very useful when working with very small datasets.
 
@@ -1434,20 +1438,33 @@ Ask a LLLM, how many character will your next response have?
 
  The most common loss functions are:
 
-  * [Mean Squared Error (MSE)][MSE] - Used in a linear regression, the best line is the one that minimize the root-mean square of the error.
-  * [Mean Absolute Error (MAE)][MAE] - Use the absolute error instead of the RMS error. Beware of [outliers].
-  * [Hinge Loss Function]
-  * [Huber Loss Function] - Use the [MSE] for small values and [MAE] for large values ?
-  * [0-1 Loss Function] : 0=correct 1=not-correct classification
-  * [Binary cross-entropy loss function] (aka Log loss function) : Used with logistic regression because the logistic regression function (sigmoid or ?) is not linear and loss function needs to have a single minimum
-  * [Cross-entropy loss function]
-  * [Contrastive loss function] and [triplet loss function]
-  * another custom function !
+  * Regression
+    * [Mean Squared Error (MSE)] - Used in a linear regression, the best line is the one that minimize the root-mean square of the error.
+    * [Mean Absolute Error (MAE)] - Use the absolute error instead of the RMS error. Beware of [outliers].
+    * [Huber Loss Function] - Use the [MSE] for small values and [MAE] for large values ?
+  * Binary classification
+    * [Binary cross-entropy] (aka Log loss function) : Used with logistic regression because the logistic regression function (sigmoid or ?) is not linear and loss function needs to have a single minimum
+    * [Hinge Loss Function]
+  * Multiclass classification
+    * [Multiclass cross Entropy Loss]
+    * [Spare Multiclass Cross Entry Loss]
+    * [Kullback Leibler Divergence Loss]
+  * Ranking
+    * Use specialized loss functions that capture the right objective
+  * Object detection
+    * Use specialized loss functions that capture the right objective
+  * Others
+    * [0-1 Loss Function] : 0=correct 1=not-correct classification
+    * [Cross-entropy loss function]
+    * [Contrastive loss function] and [triplet loss function]
+    * another custom function !
 
  Choose your loss function based on
 
   * the original estimator function (?) e.g. linear or sigmoid
   * must have a global minimum and not local ones
+
+ ![](img/l/loss_functions_and_popular_algorithms.png ){: width="100%"}
 
  More at :
 

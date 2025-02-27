@@ -30,6 +30,10 @@ description: This is the post description
 #   - BarTag
 ---
 
+DeepSeek in VSCode
+* https://x.com/dani_avila7/status/1884041492697600173
+* https://app.agentops.ai/projects
+
 # DeepSeek
 
 DeepSeek is a Chinese artificial intelligence (AI) company, founded in 2023 by entrepreneur Liang Wenfeng, that has rapidly gained attention for developing advanced, open-source large language models (LLMs). Based in Hangzhou, Zhejiang, and funded by the hedge fund High-Flyer, DeepSeek focuses on creating efficient AI models that rival those of established tech giants.

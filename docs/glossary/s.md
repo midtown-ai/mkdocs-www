@@ -1105,9 +1105,9 @@ Siri is a spin-off from a project developed by the SRI International Artificial 
 
 ## Skorch Python Module
 
- ~ scikit learn that wrap s pytorch.
+ ~ scikit learn that wraps PyTorch. Used for [hyperparameter optimization (HPO)]
 
- Pytorch objects can be passed as parameters to scikit!
+ PyTorch objects can be passed as parameters to scikit!
 
 ```python
 from skorch import NeuralNetRegressor
@@ -1119,10 +1119,11 @@ net = NeuralNetRegressor(
     max_epochs=10,
     lr=0.1,
     # Shuffle training data on each epoch
-    iterator_train__shuffle=True,
+    iterator_train__shuffle=True,               # not a typo!
 )
-net.set_params(train_split=False, verbose=0)
-params = {
+net.set_params(train_split=False, verbose=0)    # Don't split based on ...
+
+params = {                                      # Grid
     'lr': [0.02, 0.05, 0.08],
     'max_epochs': [10, 200, 500],
 }

@@ -277,8 +277,15 @@
  ==> maximize the resource/GPU utilization
 
 ```
-# of batches  *  batch size  =  1 epoch
+For each epoch:
+    For batc
+    # of batches  *  batch size  =  1 dataset
 ```
+
+ Typical batch sizes:
+  * 1 - 512
+  * often a multiple of 2
+  * Good default = 32
 
  {% youtube "https://www.youtube.com/watch?v=U4WB9p6ODjM" %}
 

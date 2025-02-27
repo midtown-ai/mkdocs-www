@@ -535,7 +535,7 @@ def huber_loss(y_pred, y, delta=1.0):
  * Parameters not directly learned by learning algorithm
  * specified outside of training procedure
  * control the capacity of the model i.e. flexibility of model to fit the data
- * prevent overfittting
+ * prevent overfitting
  * improve the convergence of the gradient descent (training time)
 
  `~ parameters to tune the performance of the ML model`. Any decision the algorithm author can't make for you. In machine learning, we use the term hyperparameter to distinguish from standard model parameters. So, it is worth to first understand what those are. A machine learning model is the definition of a mathematical formula with a number of parameters that need to be learned from the data. That is the crux of machine learning: fitting a model to the data. This is done through a process known as model training. In other words, by training a model with existing data, we are able to fit the model parameters. `However, there is another kind of parameters that cannot be directly learned from the regular training process`. These parameters express “higher-level” properties of the model such as its complexity or how fast it should learn. They are called hyperparameters. Hyperparameters are usually fixed before the actual training process begins. So, how are hyperparameters decided? That is probably beyond the scope of this question, but suffice to say that, broadly speaking, this is done by setting different values for those hyperparameters, training different models, and deciding which ones work best by testing them.
@@ -552,13 +552,16 @@ def huber_loss(y_pred, y, delta=1.0):
   * Number of trees
   * Number of latent factors in a matrix factorization
   * Learning rate (in many models)
-  * Number of hidden layers in a deep neural network
-  * Number of hidden nodes in network layers
+  * Number of [hidden layers] in a deep neural network
+  * Number of [nodes] in hidden layers
   * Number of clusters in a k-means clustering
   * [Drop out function]
   * Regularization
   * Boosting step size
   * Initialization of clustering algorithm
+  * ...
+  * [batch size]
+  * number of [epochs]
 
  Beware often you have 1 hyperparameter that is more impactful than the other. Also beware of correlation between parameters. Hyperparameters can take a continuous, integer, or categorical value (ex learning rate 0.1, epochs:20, optimizer: sgd). 
 
@@ -567,14 +570,19 @@ def huber_loss(y_pred, y, delta=1.0):
 
 ## Hyperparameter Optimization (HPO)
 
- Process used to tune the [hyperparameters][Hyperparameter] to get the best prediction (best is defined by a function!)
+ Process used to tune the [hyperparameters] to get the best prediction (best is defined by a function!)
+
+ Reason for tuning:
+
+    * decrease training and inference time
+    * ...
 
  Tuning strategies:
 
   1. Trial and Error, defaults, guess, experience, intuition, heuristics 
   1. Try everything using one of the 3 most popular HPO techniques:
    * [Random search] or the derived [Sobol Search]
-   * [Grid search]
+   * [Grid search] - evaluate each possible combination
    * [Bayes Search]
   1. Meta model ... Required to avoid over-fitting and under-fitting.
 
@@ -582,6 +590,8 @@ def huber_loss(y_pred, y, delta=1.0):
 ///
 
  In general, if the number of combinations is limited enough, we can use the [Grid Search] technique. But when the number of combinations increases, we should try [Random Search] or [Bayes Search] as they are less computationally expensive.
+
+ {% youtube "https://www.youtube.com/watch?v=oMc9StPVzOU&t=365s" %}
 
  See also [H], [AutoML], [CPU], [F1 Score], [GPU], [Hyperparameter], [Meta Model], [Overfitting], [Underfitting]
 

@@ -30,8 +30,8 @@ description: This is the post description
 #   - BarTag
 ---
 
+file:///Users/emayssat/Desktop/Daily_Dose_Of_Data_Science_Full_Archive.pdf
 
-## Milvus
+<!-- end-of-excerpt -->
 
-## Pinecone
 

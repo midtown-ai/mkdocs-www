@@ -678,6 +678,10 @@ In the context of DeepRacer, an episode refers to a single complete race around 
 
  Number of Epochs = Number of passes on the training dataset
 
+ ~ too many epochs increases training time and can lead to [overfitting]
+
+ ~ a few epochs improves learning convergence but increases overfitting risk
+
 /// warning | The parameters of the model are usually updated many times during each epoch. The model is updated after each batch of data. This is known as [batch training] or mini-batch training.
 ///
 

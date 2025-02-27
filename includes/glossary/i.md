@@ -32,7 +32,7 @@
 [ImageNet]: /glossary/i.md#imagenet-dataset
 [ImageNet Large Scale Visual Recognition (ILSVR) Challenge]: /glossary/i.md#imageNet-large-scale-visual-recognition-ilsvr-challenge
 [ILSVR Challenge]: /glossary/i.md#imageNet-large-scale-visual-recognition-ilsvr-challenge
-[Imbalanced Data]: /glossary/i.md#imbalanced-data
+[Imbalanced Dataset]: /glossary/i.md#imbalanced-dataset
 [Imitation Learning (IL)]: /glossary/i.md#imitation-learning-il
 [IL]: /glossary/i.md#imitation-learning-il
 [Impact Factor]: /glossary/i.md#impact-factor

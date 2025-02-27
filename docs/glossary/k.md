@@ -166,7 +166,7 @@
 
 ## Keras
 
- A python module ...
+ A python module ... built on top of tensorFlow (alternative CNTK, theano)
 
  See also [K], ...
 

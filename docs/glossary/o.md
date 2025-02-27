@@ -694,13 +694,13 @@ The best models will be used the most. Evals are flawed. Instead, compare models
     * [Stochastic Gradient Descent (SGD)] - faster convergence than GD
   * Adaptive learning algorithms
     * [Resilient Backpropagation (Rprop)] (1992)
-    * [Adaptive Gradient Algorithm (AdaGrad)]
-    * [Root Mean Square Propagation (RMSprop)]
+    * [Adaptive Gradient Algorithm (AdaGrad)] - adapt learning rate to features
+    * [Root Mean Square Propagation (RMSprop)]  - improvement on Adagrad when learning rate decrases with time and gets sometimes too small
   * Momentum algorithms
     * [Gradient Descent with Momentum (GDwM)]
   * Adaptive learning with Momentum algorithms
     * [Adaptive Delta Algorithm (AdaDelta)]
-    * [Adaptive Momentum Estimation (Adam)]
+    * [Adaptive Momentum Estimation (Adam)] - apply momentum
   * Others
     * Nesterov-accelerated Adaptive Momentum Estimation (Nadam)
     * Nadamax
@@ -891,7 +891,7 @@ model.compile(loss='categorical_crossentropy', optimizer=opt)
 
 ## Oversampling
 
- ![](img/u/oversampling_vs_undersampling.png ){: width="100%"}
+ ![](img/o/oversampling_vs_undersampling.png ){: width="100%"}
 
  See also [O], [Imbalanced Dataset], [Undersampling]
 

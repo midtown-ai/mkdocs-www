@@ -4,7 +4,7 @@
 
  Harmonic mean of precision and recall. A metric used for [model evaluation] in scenarios where both [false positives] and [false negatives] are crucial. For instance, in information retrieval or sumarization tasks.
 
- A Measure of [accuracy] of a model. Used to find [hyperparameter optimization].
+ A Measure of [accuracy] of a model. Used to find [HyperParameter Optimization (HPO)].
 
  When to use? F1-Score is used when the [False Negatives] and [False Positives] are important. F1-Score is a better metric for [imbalanced datasets].
 
@@ -12,7 +12,7 @@
 
   * [https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5](https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5)
 
- See also [F], [Confusion Matrix], [Hyperparameter Optimization]
+ See also [F], [Confusion Matrix]
 
 
 ## Face Detection
@@ -640,6 +640,10 @@ Xnorm = ---------------
 
 
 ## Federated Learning
+
+ When generic model is further fine tuning on private data in edge devices. Edge devices send log information to the central server/model for further refining.
+
+ ![](img/f/federated_learning.png ){: width="100%"}
 
  More at:
 

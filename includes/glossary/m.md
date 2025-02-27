@@ -10,6 +10,7 @@
 [Machine Unlearning]: /glossary/m.md#machine-unlearning
 [Magi Model]: /glossary/m.md#magi-model
 [Magi]: /glossary/m.md#magi-model
+[Majority Class]: /glossary/m.md#majority-class
 [Majority Vote Algorithm]: /glossary/m.md#majority-vote-algorithm
 [Make-A-Video Model]: /glossary/m.md#make-a-video-model
 [Make-A-Video]: /glossary/m.md#make-a-video-model

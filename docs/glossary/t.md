@@ -107,6 +107,18 @@
  See also [T], [Feature], [Unsupervised Learning], [XGBoost]
 
 
+## Target Variable
+
+ This is the attribute we want to the algorithm to predict based on its input
+
+ A variable can be
+
+  * continuous== > [regression]
+  * categorical / discrete ==> [classification]
+
+ See also [T], ...
+
+
 ## Task
 
  To discern a task:
@@ -750,7 +762,49 @@ Desired Output --> |     Training     | --> Model
  See also [T], [Machine Learning]
 
 
+## Train-Test Contamination
+
+ Direct miss use of testing data (unlike [data leakage])
+
+  * Explicitly using test data for hyperparameter tuning
+  * Using test samples for model selection
+  * training on test data
+  * ...
+
+ ![](img/t/train_test_contamination.png ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=oMc9StPVzOU&t=451s" %}
+
+ See also [T], ...
+
+
 ## Train Testing Split
+
+ See also [T], ...
+
+
+## Training Loop
+
+```python
+# model, loss, optimizer change parameter state, no clear owner
+for epoch in range(number_epochs):
+    for j, data in enumerate(train_loader):
+        # optimization
+        optimized.zero_grad()        # clear the accumulated gradient
+
+        # compute loss
+        loss = loss ...
+
+        # forward pass
+        y_hat = ... 
+
+        # backprop
+        loss.backward()             # gradient are changed in place
+
+        # update weigths
+        optimizer.step()
+
+```
 
  See also [T], ...
 
@@ -815,6 +869,8 @@ Desired Output --> |     Training     | --> Model
  Transfer learning is one of the most useful discoveries to come out of the computer vision community. Stated simply, transfer learning allows one model that was trained on different types of images, e.g. dogs vs cats, to be used for a different set of images, e.g. planes vs trains, while reducing the training time dramatically. When Google released !ImageNet, they stated it took them over 14 days to train the model on some of the most powerful GPUs available at the time. Now, with transfer learning, we will train an, albeit smaller, model in less than 5 minutes.
 
  ![](img/t/transfer_learning.png ){: width="100%"}
+
+ ![](img/t/transfer_learning_gradient_flow.png ){: width="100%"}
 
  {% youtube "https://www.youtube.com/watch?v=BqqfQnyjmgg" %}
 

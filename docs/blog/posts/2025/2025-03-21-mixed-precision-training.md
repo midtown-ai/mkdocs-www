@@ -1,7 +1,7 @@
 ---
 draft: true
 # readingtime: 15
-slug: beginner-mistake
+slug: product/vector-databases
 title: DeepSeek
 
 authors:
@@ -30,8 +30,8 @@ description: This is the post description
 #   - BarTag
 ---
 
+file:///Users/emayssat/Desktop/Daily_Dose_Of_Data_Science_Full_Archive.pdf
 
- * https://www.youtube.com/watch?v=oMc9StPVzOU
 
- <!-- end-of-excerpt -->
+<!-- end-of-excerpt -->
 

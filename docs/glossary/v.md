@@ -14,6 +14,8 @@
 
 ## Validation Set
 
+ ~ <!> not used for training, but hyperparameter tuning. few hyperparameters ==> smaller validation set, many hyperparameters ==> larger validation set
+
  ~ Used to find the proper complexity of the model that is the balance between the bias and variance a.k.a. [bias-variance tradeoff]
 
  Double training data split!

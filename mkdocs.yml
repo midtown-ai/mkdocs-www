@@ -272,11 +272,13 @@ nav:
   #   - Mentorship: forms/mentorship.md
   #   - Donation: https://donate.stripe.com/00gbL46JP50K0YE9AD
   - Blog:
-    - blog/index.md
-  # - Projects:
-  #   - projects/index.md
+    - Blog: blog/index.md
+  - Projects:
+    - Projects: projects/index.md
+    - Python: projects/python/index.md
+    - Pytorch: projects/pytorch/index.md
+    - DeepRacer: projects/deepracer/index.md
   #   - DeepRacer:
-  #     - DeepRacer: projects/deepracer/index.md
   #     - Approaching DeepRacer: projects/deepracer/approaching-aws-deepracer.md
   #     - DeepRacer on The Spot: projects/deepracer/aws-deepracer-on-the-spot.md
   #     - Getting Started with Log Guru: projects/deepracer/getting-started-with-log-guru.md
@@ -288,7 +290,6 @@ nav:
   #     - Physical Car: projects/deepracer/physical-car.md
   #     - Physical Races and Sin2REal: projects/deepracer/physical-races-and-sim2real.md
   #     - DeepRacer Student League: projects/deepracer/deepracer-student-league.md
-  #   - Pytorch: projects/pytorch/index.md
   - Glossary:
     - Glossary: glossary/index.md
     - 0-9: glossary/0-9.md
@@ -429,8 +430,8 @@ plugins:
       # cache: false          # (SO) bypass the cache and regenerate the enter set of cards
       cache_dir: !ENV [SOCIAL_CACHE_DIR, .cache/plugins/social] # Where the generated cards are locally saved
       cards: true             # build cards for entire site
-      cards_layout: custom    # name of the default layout in the layout_dir to use
-      cards_layout_dir: layouts # directory where the card layouts are stored
+      # cards_layout: custom  # (SO) name of the default layout in the layout_dir to use
+      # cards_layout_dir: layouts # (SO) directory where the card layouts are stored
       cards_layout_options:
         background_color: teal
         # background_images: layouts/stairs.jpg
