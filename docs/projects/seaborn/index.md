@@ -1,16 +1,16 @@
 
 
-| Function | Purpose |
-|----------|----------|----------|
-| sns.barplot() | Bar charts with statistical aggregation |
-| sns.histplot() | 	Histograms for distribution visualization |
-| sns.boxplot() | Box-and-whisker plots for outlier detection |
-| sns.violinplot() | Combines boxplot and KDE for distribution |
-| sns.scatterplot() | Scatter plots for relationships |
-| sns.lineplot() | Line graphs for trends over time |
-| sns.heatmap() | Correlation heatmaps & matrix visualizations |
-| sns.pairplot() | Scatterplot matrix for pairwise relationships |
-| sns.lmplot() | Linear regression plots |
+ | Function | Purpose |
+ |----------|----------|
+ | sns.barplot() | Bar charts with statistical aggregation |
+ | sns.histplot() | 	Histograms for distribution visualization |
+ | sns.boxplot() | Box-and-whisker plots for outlier detection |
+ | sns.violinplot() | Combines boxplot and KDE for distribution |
+ | sns.scatterplot() | Scatter plots for relationships |
+ | sns.lineplot() | Line graphs for trends over time |
+ | sns.heatmap() | Correlation heatmaps & matrix visualizations |
+ | sns.pairplot() | Scatterplot matrix for pairwise relationships |
+ | sns.lmplot() | Linear regression plots |
 
 
 ## Barplot
@@ -44,7 +44,7 @@ import pandas as pd
 data = pd.DataFrame(np.random.rand(5, 5), columns=["A", "B", "C", "D", "E"])  # (1)!
 
 # Heatmap using DataFrame
-sns.heatmap(data, annot=True, cmap="YlGnBu") # (2)!
+sns.heatmap(data, annot=True, cmap="YlGnBu")  # (2)!
 
 plt.show()
 ```
