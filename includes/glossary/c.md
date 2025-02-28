@@ -67,6 +67,9 @@
 [CM3leon Model]: /glossary/c.md#cm3leon-model
 [CM3leon]: /glossary/c.md#cm3leon-model
 [CNTK]: /glossary/c.md#cntk
+[Coalition for Content Provenance and Authenticity (C2PA)]: /glossary/c.md#coalition-for-content-provenance-and-authenticity-c2pa
+[Coalition for Content Provenance and Authenticity]: /glossary/c.md#coalition-for-content-provenance-and-authenticity-c2pa
+[C2PA]: /glossary/c.md#coalition-for-content-provenance-and-authenticity-c2pa
 [Code Synthesis]: /glossary/c.md#code-synthesis
 [Codex Model]: /glossary/c.md#codex-model
 [Codex]: /glossary/c.md#codex-model

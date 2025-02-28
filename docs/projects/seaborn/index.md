@@ -22,8 +22,8 @@ import pandas as pd
 
 # Sample Data
 data = pd.DataFrame({
-    "category": ["A", "B", "C", "D"],
-    "values": [10, 15, 7, 12]
+    "category": ["A", "B", "C", "D"],     # First dataframe's column
+    "values": [10, 15, 7, 12]             # Second dataframe's column
 })
 
 # Create Bar Plot
@@ -32,6 +32,8 @@ sns.barplot(x="category", y="values", data=data)
 # Show the Plot
 plt.show()
 ```
+
+![](./img/sns_barplot.png){style="width:40%"}
 
 ## Heatmap
 
@@ -49,10 +51,9 @@ sns.heatmap(data, annot=True, cmap="YlGnBu")  # (2)!
 plt.show()
 ```
 
-1. 
-    np.random.rand(5, 5): Generates a 5x5 matrix of random values between 0 and 1.
-
-2.
-    sns.heatmap(): Creates the heatmap.
+1.  np.random.rand(5, 5): Generates a 5x5 matrix of random values between 0 and 1.
+2.  sns.heatmap(): Creates the heatmap.
     annot=True: Displays numerical values inside the cells.
     cmap="coolwarm": Sets the color map (you can try others like "viridis", "Blues", "magma", etc.)
+
+![](./img/sns_heatmap.png){style="width:40%"}

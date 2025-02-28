@@ -41,7 +41,7 @@ hide:
 
     Why use Seaborn? Elegant & Aesthetic Graphs, Seamless Pandas Integration, Easy Statistical Visualization, Automatic Data Aggregation.
 
-    [:fontawesome-solid-arrow-right:{ .bouncing-horizontally } Want to master Seaborn](/projects/seaborn/index.md)
+    [:fontawesome-solid-arrow-right:{ .bouncing-horizontally } Want to master Seaborn ?](/projects/seaborn/index.md)
 
 
 </div>

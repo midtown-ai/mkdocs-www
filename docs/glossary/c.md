@@ -696,6 +696,17 @@ print(query_result)
  See also [C], ...
 
 
+## Coalition for Content Provenance and Authenticity (C2PA)
+
+ An open technical standard providing publishers, creators, and consumers the ability to trace the origin of different types of media.
+
+ More at:
+
+  * site - https://c2pa.org/
+
+ See also [C], ...
+
+
 ## Code Synthesis
 
  Generation of code by machines
