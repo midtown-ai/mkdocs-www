@@ -1,0 +1,33 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Midtown AI (blog feed)",
+    "home_page_url": "https://midtown-ai.github.io/mkdocs-www/",
+    "feed_url": "https://midtown-ai.github.io/mkdocs-www/feed_json_created.json",
+    "description": "Let's explore this transforming technology. Let's shape the future of AI together.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png",
+    "authors": [
+        {
+            "name": "info@midtown.ai (Emmanuel M.)"
+        }
+    ],
+    "language": "en",
+    "items": [
+        {
+            "id": "https://midtown-ai.github.io/mkdocs-www/blog/ai-movies/",
+            "url": "https://midtown-ai.github.io/mkdocs-www/blog/ai-movies/?utm_campaign=feed-syndication&utm_medium=RSS&utm_source=documentation",
+            "title": "AI on the Silver Screen",
+            "content_html": "This is the post description",
+            "image": "https://midtown-ai.github.io/mkdocs-www/assets/images/social/blog/ai-movies.png",
+            "date_published": "2025-01-18T00:00:00+00:00",
+            "authors": [
+                {
+                    "name": "Emmanuel's Empirical Evidence"
+                }
+            ],
+            "tags": [
+                "Entertainment",
+                "No Code"
+            ]
+        }
+    ]
+}
